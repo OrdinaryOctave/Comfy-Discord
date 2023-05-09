@@ -217,15 +217,19 @@
     mask: none;
     pointer-events: none;
 
-    &[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-    &[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-    &[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-    &[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+    &[width="8"],
+    &[width="10"],
+    &[width="12"],
+    &[width="16"]{
       rx: var(--status-radius);
     }
 
-    &[width="25"],
     &[mask="url(#svg-mask-status-online-mobile)"] {
+      height: 16px;
+      y: 60;
+    }
+
+    &[width="25"]{
       rx: 5px;
     }
   }
@@ -316,9 +320,9 @@
   .menu-1QACrS
     .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
     width: 12px;
-    height: 16px;
+    height: 12px;
     x: 24;
-    y: 20;
+    y: 24;
   }
 
   // Mask in the status picker

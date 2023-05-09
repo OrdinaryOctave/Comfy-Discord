@@ -2006,10 +2006,14 @@
   mask: none;
   pointer-events: none;
 }
-:root .pointerEvents-2KjWnj[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2KjWnj[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2KjWnj[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2KjWnj[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+:root .pointerEvents-2KjWnj[width="8"], :root .pointerEvents-2KjWnj[width="10"], :root .pointerEvents-2KjWnj[width="12"], :root .pointerEvents-2KjWnj[width="16"] {
   rx: var(--status-radius);
 }
-:root .pointerEvents-2KjWnj[width="25"], :root .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
+:root .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
+  height: 16px;
+  y: 60;
+}
+:root .pointerEvents-2KjWnj[width="25"] {
   rx: 5px;
 }
 :root .mask-1y0tyc,
@@ -2066,9 +2070,9 @@
 :root .nowPlayingColumn-1eCBCN .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
 :root .menu-1QACrS .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
   width: 12px;
-  height: 16px;
+  height: 12px;
   x: 24;
-  y: 20;
+  y: 24;
 }
 :root #account-avatar .pointerEvents-2KjWnj {
   width: 18px;
