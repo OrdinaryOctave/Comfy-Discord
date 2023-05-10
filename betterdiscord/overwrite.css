@@ -1,0 +1,25 @@
+/* Paste this file into 'Custom CSS' settings in BetterDiscord to overwrite required parts of base theme (alternative to replacing main.css) */
+
+:root .pointerEvents-2KjWnj[width="8"], :root .pointerEvents-2KjWnj[width="10"], :root .pointerEvents-2KjWnj[width="12"], :root .pointerEvents-2KjWnj[width="16"] {
+    rx: var(--status-radius);
+  }
+  
+  :root .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
+    height: 16px;
+    y: 60;
+  }
+  :root .pointerEvents-2KjWnj[width="25"] {
+    rx: 5px;
+  }
+  
+  :root .channel-1Shao0 .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
+  :root .members-3WRCEx .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
+  :root .peopleListItem-u6dGxF .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
+  :root .nowPlayingColumn-1eCBCN .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
+  :root .menu-1QACrS .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"] {
+    width: 12px;
+    height: 12px;
+    x: 24;
+    y: 24;
+  }
+  
